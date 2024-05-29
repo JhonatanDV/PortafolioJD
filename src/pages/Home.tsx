@@ -13,14 +13,7 @@ const Home: FunctionComponent = () => {
       <FrameComponent5 />
       <main className={styles.frameParent}>
         <div className={styles.frameWrapper}>
-          <div className={styles.frameGroup}>
-            <input className={styles.frameInput} type="checkbox" />
-            <input
-              className={styles.currentlyWorkingOn}
-              placeholder="Currently working on Portfolio"
-              type="text"
-            />
-          </div>
+          
         </div>
         <FrameComponent4 />
         <FrameComponent3 />

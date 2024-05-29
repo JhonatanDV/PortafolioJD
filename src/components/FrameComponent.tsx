@@ -1,4 +1,6 @@
 import { FunctionComponent } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Importa FontAwesomeIcon
+import { faGithub, faTelegram, faDiscord, } from '@fortawesome/free-brands-svg-icons';
 import styles from "./FrameComponent.module.css";
 
 const FrameComponent: FunctionComponent = () => {
@@ -21,64 +23,31 @@ const FrameComponent: FunctionComponent = () => {
                 I’m interested in freelance opportunities. However, if you have
                 other request or question, don’t hesitate to contact me
               </div>
-              <div className={styles.h2Parent}>
-                <div className={styles.h2}>
-                  <h1 className={styles.h11}>#</h1>
-                  <h1 className={styles.smallProjects}>all-media</h1>
-                </div>
-                <div className={styles.frameParent1}>
-                  <div className={styles.mediaParent}>
-                    <div className={styles.media}>
-                      <img className={styles.twitterIcon} alt="" />
-                      <div className={styles.eliasWrapper}>
-                        <div className={styles.elias}>+57 3223246566</div>
-                      </div>
-                    </div>
-                    <img
-                      className={styles.vectorIcon}
-                      loading="lazy"
-                      alt=""
-                      src="/vector.svg"
-                    />
-                  </div>
-                  <div className={styles.mediaGroup}>
-                    <div className={styles.media1}>
-                      <img className={styles.twitterIcon1} alt="" />
-                      <div className={styles.eliasContainer}>
-                        <div className={styles.elias1}>JhonatanDV</div>
-                      </div>
-                    </div>
-                    <img
-                      className={styles.vectorIcon1}
-                      loading="lazy"
-                      alt=""
-                      src="/vector-1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
+              
             </div>
-          </div>
-          <div className={styles.messageMeHereParent}>
-            <div className={styles.messageMeHere}>Message me here</div>
-            <div className={styles.instanceParent}>
-              <div className={styles.discordParent}>
-                <img
-                  className={styles.discordIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/discord.svg"
-                />
-                <div className={styles.elias2}>HEREJ3</div>
-              </div>
-              <div className={styles.emailParent}>
-                <img
-                  className={styles.emailIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/email.svg"
-                />
-                <div className={styles.elias3}>jhonatandiaz918@gmail.com</div>
+            <div className={styles.messageMeHereParent}>
+              <div className={styles.messageMeHere}>Message me here</div>
+              <div className={styles.h2Parent}>
+                <div className={styles.frameParent1}>
+                <div className="flex justify-end gap-6 text-black">
+                <div className={styles.whoAmI}>Telegram</div>
+                    <a href="https://t.me/JhonatanDV18" target="_blank" rel="noopener noreferrer" className="social-icon text-3xl">
+                      <FontAwesomeIcon icon={faTelegram} />
+                    </a>
+                  </div>
+                  <div className="flex justify-end gap-6 text-black">
+                  <div className={styles.whoAmI}>GitHub</div>
+                    <a href="https://github.com/JhonatanDV" target="_blank" rel="noopener noreferrer" className="social-icon text-3xl">
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </div>
+                  <div className="flex justify-end gap-6 text-black">
+                  <div className={styles.whoAmI}>Discord</div>
+                    <a href="https://discordapp.com/users/HEREJ3#7614" target="_blank" rel="noopener noreferrer" className="social-icon test-3xl">
+                      <FontAwesomeIcon icon={faDiscord} />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

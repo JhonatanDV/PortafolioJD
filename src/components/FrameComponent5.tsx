@@ -29,9 +29,11 @@ const FrameComponent5: FunctionComponent = () => {
                     creativity
                   </div>
                 </div>
+                <a href="#contacts">
                 <button className={styles.button}>
                   <div className={styles.live}>Contact me!!</div>
                 </button>
+                </a>
               </div>
             </div>
             <div className={styles.imageParent}>

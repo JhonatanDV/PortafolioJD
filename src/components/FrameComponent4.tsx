@@ -9,17 +9,7 @@ const FrameComponent4: FunctionComponent = () => {
           “The present is theirs; the future, for which I really worked, is
           mine.”
         </h3>
-        <div className={styles.wrapper}>
-          <img className={styles.icon} loading="lazy" alt="" src="/.svg" />
-        </div>
-        <div className={styles.quoteInner}>
-          <button className={styles.nikolaTeslaParent}>
-            <div className={styles.nikolaTesla}>- Nikola Tesla</div>
-            <div className={styles.container}>
-              <img className={styles.icon1} alt="" src="/.svg" />
-            </div>
-          </button>
-        </div>
+        
       </div>
     </section>
   );

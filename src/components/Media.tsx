@@ -8,8 +8,8 @@ const Media: FunctionComponent = () => {
         <img
           className={styles.line10Stroke}
           loading="lazy"
-          alt=""
-          src="/line-10-stroke.svg"
+
+
         />
       </div>
       <div className={styles.githubParent}>
@@ -17,19 +17,18 @@ const Media: FunctionComponent = () => {
           className={styles.githubIcon}
           loading="lazy"
           alt=""
-          src="/github.svg"
+
         />
         <img
           className={styles.dribbleIcon}
           loading="lazy"
           alt=""
-          src="/dribble.svg"
+
         />
         <img
           className={styles.figmaIcon}
           loading="lazy"
           alt=""
-          src="/figma.svg"
         />
       </div>
     </div>
