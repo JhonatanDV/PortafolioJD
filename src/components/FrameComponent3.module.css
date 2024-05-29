@@ -1,0 +1,508 @@
+.h2Wrapper {
+  width: 1047px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipseDiv,
+.frameChild,
+.frameChild1,
+.frameInner,
+.frameItem {
+  height: 4px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+.ellipseParent {
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameChild6 {
+  height: 4px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+.ellipseGroup {
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.frameChild10,
+.frameChild11,
+.frameChild7,
+.frameChild8,
+.frameChild9 {
+  height: 4px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+.ellipseContainer {
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.frameChild12,
+.frameChild13,
+.frameChild14,
+.frameChild15,
+.frameChild16 {
+  height: 4px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+.frameDiv {
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.frameChild17,
+.frameChild18,
+.frameChild19,
+.frameChild20,
+.frameChild21 {
+  height: 4px;
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray);
+}
+.ellipseParent1,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.ellipseParent1 {
+  width: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.projectChild {
+  align-self: stretch;
+  height: 201px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.c,
+.unity {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+}
+.unity {
+  min-width: 48px;
+}
+.flask,
+.flask1 {
+  align-self: stretch;
+  width: 48px;
+  position: relative;
+  color: var(--gray);
+  display: none;
+}
+.cParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-218xl) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.flask2,
+.flask3,
+.flask4,
+.html,
+.python,
+.scss {
+  position: relative;
+}
+.flask3,
+.flask4 {
+  width: 48px;
+  display: none;
+}
+.htmlParent {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+  color: var(--gray);
+}
+.medicalDesign,
+.medicalModeling {
+  align-self: stretch;
+  position: relative;
+}
+.medicalDesign {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.medicalModeling {
+  font-size: var(--font-size-base);
+}
+.medicalDesignParent,
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.medicalDesignParent {
+  align-self: stretch;
+  border-top: 1px solid var(--white);
+  padding: var(--padding-sm) var(--padding-base) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.project {
+  flex: 1;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  min-width: 248px;
+  max-width: 100%;
+}
+.instanceChild {
+  align-self: stretch;
+  height: 201px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.c1 {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+}
+.flask5,
+.flask6,
+.unity1 {
+  align-self: stretch;
+  width: 68px;
+  position: relative;
+  display: none;
+}
+.flask5,
+.flask6 {
+  width: 48px;
+  color: var(--gray);
+}
+.cGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.html1 {
+  position: relative;
+  display: inline-block;
+  min-width: 48px;
+}
+.flask7,
+.flask8,
+.flask9,
+.python1,
+.scss1 {
+  align-self: stretch;
+  width: 39px;
+  position: relative;
+  display: none;
+}
+.flask7,
+.flask8,
+.flask9,
+.python1 {
+  width: 58px;
+}
+.flask7,
+.flask8,
+.flask9 {
+  width: 48px;
+}
+.flask8,
+.flask9 {
+  color: var(--gray);
+}
+.htmlGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.medicalDesign1,
+.medicalModeling1 {
+  align-self: stretch;
+  position: relative;
+}
+.medicalDesign1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.medicalModeling1 {
+  font-size: var(--font-size-base);
+}
+.medicalDesignGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.medicalDesignGroup {
+  align-self: stretch;
+  border-top: 1px solid var(--white);
+  padding: var(--padding-sm) var(--padding-base) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.rectangleParent {
+  flex: 1;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 248px;
+  max-width: 100%;
+}
+.instanceItem {
+  align-self: stretch;
+  height: 201px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.c2,
+.unity2 {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+}
+.unity2 {
+  min-width: 68px;
+}
+.flask10,
+.flask11 {
+  align-self: stretch;
+  width: 48px;
+  position: relative;
+  color: var(--gray);
+  display: none;
+}
+.cContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-198xl) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.flask12,
+.html2,
+.python2,
+.scss2 {
+  position: relative;
+}
+.flask13,
+.flask14 {
+  width: 48px;
+  position: relative;
+  display: none;
+}
+.htmlContainer {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+  color: var(--gray);
+}
+.medicalDesign2,
+.medicalModeling2 {
+  align-self: stretch;
+  position: relative;
+}
+.medicalDesign2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.medicalModeling2 {
+  font-size: var(--font-size-base);
+}
+.medicalDesignContainer,
+.projectParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.medicalDesignContainer {
+  align-self: stretch;
+  border-top: 1px solid var(--white);
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.projectParent,
+.rectangleGroup {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border: 1px solid var(--white);
+  flex-direction: column;
+  min-width: 248px;
+}
+.projectParent {
+  width: 1023.7px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: var(--gap-base);
+}
+.frameContainer,
+.instanceParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.instanceParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.frameParent,
+.frameWrapper,
+.instanceParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  width: 1234.7px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  max-width: 117%;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  width: 1145px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}
+@media screen and (max-width: 1200px) {
+  .frameWrapper {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .instanceParent {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cParent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .htmlParent {
+    flex-wrap: wrap;
+  }
+  .medicalDesign,
+  .medicalDesign1 {
+    font-size: var(--font-size-lgi);
+  }
+  .cContainer {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .htmlContainer {
+    flex-wrap: wrap;
+  }
+  .medicalDesign2 {
+    font-size: var(--font-size-lgi);
+  }
+}

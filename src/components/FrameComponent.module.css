@@ -1,0 +1,314 @@
+.contacts,
+.h1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.h1 {
+  min-width: 20px;
+}
+.contacts {
+  height: 31.7px;
+  z-index: 1;
+}
+.contactsWrapper,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactsWrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs-9) 0 0;
+  color: var(--white);
+}
+.parent {
+  flex-direction: row;
+}
+.whoAmI {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  display: inline-block;
+  min-width: 87px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-5);
+}
+.imInterestedIn {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.h11,
+.smallProjects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.h11 {
+  display: inline-block;
+  min-width: 20px;
+}
+.smallProjects {
+  color: var(--white);
+}
+.h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.twitterIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.elias {
+  position: relative;
+  white-space: nowrap;
+}
+.eliasWrapper,
+.media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eliasWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  width: 100%;
+  height: 100%;
+}
+.vectorIcon {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 23px;
+  height: 23px;
+  z-index: 1;
+}
+.mediaParent,
+.twitterIcon1 {
+  height: 32px;
+  position: relative;
+}
+.mediaParent {
+  flex: 1;
+}
+.twitterIcon1 {
+  width: 32px;
+}
+.elias1 {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+}
+.eliasContainer,
+.media1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eliasContainer {
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.media1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 21px;
+  height: 20px;
+  z-index: 2;
+}
+.mediaGroup {
+  height: 32px;
+  width: 133px;
+  position: relative;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+.h2Parent {
+  width: 305px;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+}
+.frameDiv,
+.h2Parent,
+.imInterestedInFreelanceOpParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imInterestedInFreelanceOpParent {
+  align-self: stretch;
+  gap: var(--gap-85xl);
+}
+.frameDiv {
+  width: 505px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 505px;
+  max-width: 100%;
+}
+.messageMeHere {
+  position: relative;
+  font-weight: 600;
+}
+.discordIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.elias2 {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+}
+.discordParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.emailIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.elias3 {
+  position: relative;
+  white-space: nowrap;
+}
+.emailParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.instanceParent,
+.messageMeHereParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceParent {
+  gap: var(--gap-5xs);
+  color: var(--gray);
+}
+.messageMeHereParent {
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-mini);
+  gap: var(--gap-base);
+  min-width: 309px;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.frameContainer,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.frameWrapper {
+  width: 1093px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}
+@media screen and (max-width: 1050px) {
+  .contacts,
+  .h1,
+  .h11,
+  .smallProjects {
+    font-size: var(--font-size-7xl);
+  }
+  .frameDiv,
+  .messageMeHereParent {
+    flex: 1;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .imInterestedInFreelanceOpParent {
+    gap: var(--gap-33xl);
+  }
+  .frameDiv {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contacts,
+  .h1,
+  .h11,
+  .smallProjects {
+    font-size: var(--font-size-lgi);
+  }
+  .imInterestedInFreelanceOpParent {
+    gap: var(--gap-7xl);
+  }
+}

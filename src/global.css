@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-fira-code: "Fira Code";
+  --font-eb-garamond: "EB Garamond";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --background: #282c33;
+  --gray: #abb2bf;
+  --white: #fff;
+  --primary: #c778dd;
+  --color-mediumorchid-100: #9445ab;
+  --color-mediumorchid-200: rgba(148, 69, 171, 0.09);
+
+  /* Gaps */
+  --gap-23xl: 42px;
+  --gap-2xl: 21px;
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-8xs: 5px;
+  --gap-85xl: 104px;
+  --gap-7xl: 26px;
+  --gap-33xl: 52px;
+  --gap-3xl: 22px;
+  --gap-base-5: 15.5px;
+  --gap-151xl: 170px;
+  --gap-66xl: 85px;
+  --gap-4xl: 23px;
+  --gap-21xl: 40px;
+  --gap-26xl: 45px;
+  --gap-5xs-5: 7.5px;
+  --gap-2xs: 11px;
+  --gap-19xl: 38px;
+  --gap-lgi: 19px;
+  --gap-13xl: 32px;
+  --gap-0: 0px;
+  --gap-3xs: 10px;
+  --gap-103xl: 122px;
+  --gap-42xl: 61px;
+  --gap-mini: 15px;
+  --gap-11xl: 30px;
+  --gap-43xl: 62px;
+  --gap-12xl: 31px;
+  --gap-30xl: 49px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-sm: 14px;
+  --padding-mini: 15px;
+  --padding-12xs: 1px;
+  --padding-7xs-5: 5.5px;
+  --padding-8xs-9: 4.9px;
+  --padding-18xl: 37px;
+  --padding-xs-9: 11.9px;
+  --padding-5xl: 24px;
+  --padding-xl-5: 20.5px;
+  --padding-243xl: 262px;
+  --padding-8xs: 5px;
+  --padding-46xl: 65px;
+  --padding-112xl: 131px;
+  --padding-7xs: 6px;
+  --padding-5xs: 8px;
+  --padding-10xl: 29px;
+  --padding-11xs: 2px;
+  --padding-25xl: 44px;
+  --padding-3xs: 10px;
+  --padding-3xl: 22px;
+  --padding-198xl: 217px;
+  --padding-218xl: 237px;
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+  --padding-12xl: 31px;
+  --padding-9xs: 4px;
+  --padding-55xl: 74px;
+  --padding-mid: 17px;
+  --padding-6xs: 7px;
+}

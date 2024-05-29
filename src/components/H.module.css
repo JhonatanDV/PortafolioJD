@@ -1,0 +1,64 @@
+.h1,
+.projects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.h1 {
+  display: inline-block;
+  min-width: 20px;
+}
+.projects {
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line7Stroke {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.h2,
+.line7StrokeWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line7StrokeWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 332px;
+}
+.h2 {
+  width: 701px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}
+@media screen and (max-width: 1050px) {
+  .h1,
+  .projects {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1,
+  .projects {
+    font-size: var(--font-size-lgi);
+  }
+}

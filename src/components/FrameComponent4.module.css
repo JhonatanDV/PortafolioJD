@@ -1,0 +1,123 @@
+.thePresentIs {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.icon {
+  width: 25.5px;
+  height: 20.7px;
+  position: relative;
+}
+.wrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: -14px;
+  left: 11px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+  width: px;
+  height: px;
+}
+.nikolaTesla {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-fira-code);
+  color: var(--white);
+  text-align: left;
+}
+.icon1 {
+  width: 25.5px;
+  height: 20.7px;
+  position: relative;
+}
+.container,
+.nikolaTeslaParent {
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.container {
+  margin: 0 !important;
+  position: absolute;
+  top: -15px;
+  right: 15.5px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  width: px;
+  height: px;
+  z-index: 1;
+}
+.nikolaTeslaParent {
+  cursor: pointer;
+  border: 1px solid var(--gray);
+  padding: var(--padding-base);
+  background-color: transparent;
+  height: 65px;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.nikolaTeslaParent,
+.quote,
+.quoteInner,
+.quoteWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.quoteInner {
+  align-self: stretch;
+  height: 63px;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+.quote,
+.quoteWrapper {
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.quote {
+  flex: 1;
+  background-color: var(--background);
+  border: 1px solid var(--gray);
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 var(--padding-13xl) var(--padding-12xl);
+  position: relative;
+  gap: var(--gap-13xl);
+}
+.quoteWrapper {
+  width: 1121px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}
+@media screen and (max-width: 750px) {
+  .quote {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nikolaTesla,
+  .thePresentIs {
+    font-size: var(--font-size-lgi);
+  }
+}

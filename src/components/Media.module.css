@@ -1,0 +1,33 @@
+.line10Stroke {
+  height: 191px;
+  width: 1px;
+  position: relative;
+  object-fit: contain;
+}
+.line10StrokeWrapper {
+  width: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.dribbleIcon,
+.figmaIcon,
+.githubIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.githubParent,
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.media {
+  background-color: var(--background);
+}

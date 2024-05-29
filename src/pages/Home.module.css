@@ -1,0 +1,81 @@
+.frameInput {
+  margin: 0;
+  height: 18.5px;
+  width: 16px;
+}
+.currentlyWorkingOn {
+  width: 288px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-eb-garamond);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 21px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frameGroup {
+  flex: 1;
+  background-color: var(--background);
+  border: 1px solid var(--gray);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.frameGroup,
+.frameParent,
+.frameWrapper,
+.home {
+  display: flex;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  width: 550px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-55xl);
+  max-width: 100%;
+}
+.frameParent,
+.home {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1253px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 111px;
+  max-width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: #3a3b3c;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 177px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 55px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: 28px;
+  }
+}
